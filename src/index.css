@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+body {
+    font-family: 'Quicksand';
+}
+
+.sticky {
+    position: fixed;
+    /* z-index: 100;
+    bottom: 0px;
+    display: flex;
+    justify-content: space-evenly; */
+}
+
+.side-bar {
+    position: sticky;
+    top: 10px;
+    height: fit-content;
+    width: 130px;
+}
+
+.outlet-content {
+    flex: 1;
+    overflow-y: auto;
+}

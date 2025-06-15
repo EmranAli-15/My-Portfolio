@@ -1,8 +1,181 @@
+import { Link } from 'react-router'
+import recipe from '../../assets/projects/recipe.png'
+import graph from '../../assets/projects/graph.png'
+import tictactoe from '../../assets/projects/tictactoe.png'
+import memory from '../../assets/projects/memory.png'
+import rockpaper from '../../assets/projects/rockpaper.png'
+import hash from '../../assets/projects/hash.png'
+
 
 export default function Project() {
     return (
-        <div className='themed-bg p-4 rounded-2xl'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus illum placeat incidunt possimus iste nesciunt maiores omnis quisquam odit facere cupiditate, voluptatibus dolore recusandae ipsum esse minima, veniam maxime corrupti dicta aspernatur modi quos pariatur, exercitationem obcaecati. Doloribus, quisquam totam sequi possimus fuga neque, distinctio porro illo ut magnam fugiat corrupti! Veritatis quaerat neque fugit corrupti perferendis voluptas perspiciatis temporibus eaque reprehenderit delectus! Aspernatur eius nisi quo esse necessitatibus, deserunt inventore iure nemo, repellat consectetur maiores magni voluptatem hic. Accusantium laborum explicabo ad quae alias neque, impedit est laudantium recusandae eaque voluptate id ipsa delectus magni quod labore cum nihil autem vitae quibusdam numquam odit. Hic provident magni sit eaque. Error voluptatum praesentium tenetur quod ea minima quo, perspiciatis doloremque officiis voluptates iste inventore aliquid tempora libero expedita alias tempore, saepe accusantium quae dolore fugiat earum culpa aperiam sunt? Reprehenderit quasi quibusdam animi ratione expedita veniam hic sed quae ex reiciendis labore commodi numquam odio, laudantium voluptate repellat, neque quaerat repellendus quis. Obcaecati officiis nesciunt placeat magnam modi dignissimos iure velit. Aliquam dicta exercitationem natus maxime nobis distinctio consequuntur, voluptatem adipisci iste alias maiores illo velit quaerat doloribus corporis veritatis minima ea quibusdam est eos sequi nulla error! Quasi itaque explicabo magnam, architecto esse error. Recusandae illo obcaecati sapiente! Totam delectus quo placeat illo impedit obcaecati itaque excepturi incidunt quae, distinctio deserunt illum necessitatibus atque cum fugit nobis recusandae tenetur similique, veniam quidem quibusdam nostrum! Obcaecati quibusdam voluptates iste mollitia, necessitatibus eaque suscipit dolorem adipisci ad laudantium repellat commodi similique, aperiam tempora consequatur illum totam libero! Hic repudiandae placeat fugiat maiores autem eligendi explicabo nam, debitis velit impedit, necessitatibus iure vero quia quam! Provident sint cum recusandae eligendi officia atque sed facilis consequatur nemo! Nesciunt doloremque earum, eaque esse consectetur itaque ipsa laudantium amet nostrum et beatae modi dolorum provident nisi nemo quos, quaerat neque accusamus, error quisquam enim dignissimos! Ratione maiores aspernatur, sed cum est fugit eaque quaerat eos mollitia suscipit porro? Quam eaque nulla, qui, nihil soluta pariatur ipsum vero laborum fugit officia quod cupiditate molestias omnis esse facilis eum assumenda id harum quisquam dolorum nesciunt! Fugiat nihil sit, aliquam aut possimus voluptatem eius omnis voluptas magnam beatae at recusandae facere autem maxime, placeat ratione? Odit quia quam est commodi sit natus, quisquam at dolore laudantium architecto veniam similique illum porro temporibus placeat, nulla eveniet, officiis odio maiores quae sed molestias quaerat enim dolorem! Aliquid dignissimos eos omnis ex recusandae reprehenderit vero saepe qui, sint ea, sunt molestiae iusto magni quod aspernatur modi? Ex fugiat sit minima corrupti saepe blanditiis. Doloremque, ipsa illum numquam delectus ea voluptatem libero laudantium facere aliquid recusandae, quod cupiditate rem soluta? Obcaecati rem voluptatem aliquam, eum, odio corrupti nulla, sapiente amet ab eveniet autem! Odit doloremque ullam veniam ut numquam ea sed molestiae. Veniam explicabo nesciunt quidem consectetur, veritatis nobis reiciendis error vero expedita? Quod officiis fugit, nihil ratione mollitia laudantium sit blanditiis laboriosam molestiae? Fuga ut sed odit est velit totam officiis eligendi molestias modi, non numquam aspernatur facere soluta mollitia magnam eum vero vel omnis ex consectetur ipsum? Eius magni mollitia corrupti a harum nemo ad vitae. Aliquam et sunt, voluptate rem laboriosam, repellat atque cumque quo quia itaque vero error. Ratione saepe possimus veniam impedit dicta delectus quae maxime exercitationem, quidem aut nobis iure nostrum illo accusamus vitae porro ea? A error quaerat mollitia eos inventore dignissimos maxime, impedit quo cupiditate quis optio sapiente nostrum amet, culpa perspiciatis consectetur molestias. Laudantium mollitia sit minus at exercitationem, accusamus perspiciatis similique totam voluptas tenetur fuga harum quidem expedita. Beatae accusantium velit laborum veniam similique? Magni consequatur accusantium minima placeat totam tenetur non dolorum sit quisquam. A labore odit rerum, maiores aperiam eligendi sint. Voluptas quae dolor alias quos velit eveniet, laboriosam repudiandae libero dolorum ducimus minima consequatur inventore perspiciatis amet ratione ipsam maiores excepturi incidunt, officiis laudantium? Alias minima veniam quas! Aspernatur at harum dolorem corrupti odio. Vitae placeat reiciendis autem. Eos, odit! Culpa officia molestias error delectus. Deserunt, enim, soluta ut culpa fuga nobis ratione minima eaque quo quos iste assumenda, cupiditate suscipit consectetur! Numquam magni velit, consequuntur explicabo culpa at minima debitis voluptates fugit hic, omnis corporis necessitatibus voluptatem deleniti saepe officia dignissimos pariatur earum facilis iusto obcaecati. Porro culpa cum obcaecati similique in cumque itaque quisquam optio? Odio voluptate doloremque unde! Ratione excepturi cumque provident nam ipsa dolor maxime natus voluptates! Rem illo doloribus maxime repellat autem fugit repudiandae. Earum expedita ipsa rem ipsum facilis dignissimos commodi culpa ipsam deserunt ut adipisci vero, amet nisi dolores odit! Eaque saepe nobis ad? Doloribus facere unde optio omnis expedita. Minima possimus, magni in nam inventore, veritatis voluptate expedita iste excepturi porro ratione sed molestiae quae dicta voluptatum delectus cum ipsa tenetur! Fugit nisi voluptatem quia sint ducimus aperiam ut earum aspernatur quis veniam. Nemo temporibus debitis quia atque! Expedita mollitia voluptate reprehenderit, pariatur quam laboriosam quia at voluptatum quae, odio soluta enim aliquid, ullam rem corporis suscipit vero autem nobis fugiat. Mollitia magni expedita deleniti consectetur illo, ut pariatur fuga esse eius odit adipisci accusantium ipsam soluta voluptates minus distinctio necessitatibus ea. Vel suscipit dolorum qui enim nostrum nihil placeat esse, quia quidem blanditiis fugit totam eveniet error incidunt, voluptas modi inventore dolores nisi natus. Perferendis cum minus, in atque est porro quidem accusantium sint laborum unde provident nihil sapiente eos cumque consequuntur esse rem consectetur, veritatis molestiae quos aliquam amet. Soluta alias inventore ad expedita, nostrum ipsa placeat pariatur, deserunt illum, vel animi iure tenetur aspernatur. Numquam hic, illum mollitia atque neque, dolor nam labore optio, tenetur autem assumenda totam ducimus! Eligendi perferendis soluta laborum sunt quia rerum, impedit enim nemo dignissimos quidem, odio nostrum odit unde quibusdam suscipit inventore dicta? Pariatur, impedit eligendi rem quas alias ipsam incidunt eius cum iste at eaque. Ab rerum nisi voluptate nobis maxime aliquid, earum nihil assumenda labore cumque totam? Perspiciatis recusandae, optio minima perferendis iusto aliquid quibusdam eos expedita tenetur in assumenda veritatis earum id vero consequuntur eaque, fugiat debitis quae voluptates. Est facere aliquid harum ut eos sed doloribus deserunt nemo!
+        <div className='themed-bg p-4 md:p-6 rounded-2xl mb-15'>
+            <section>
+                <h1 className='heading text-xl'>My projects</h1>
+                <div className='flex items-center'>
+                    <div className='h-1 w-4 bg-amber-500 rounded-l-2xl'></div>
+                    <div className='h-1 w-8 bg-blue-700 rounded-r-2xl'></div>
+                </div>
+            </section>
+
+
+            <section className='grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 my-5'>
+                <div className='border rounded-2xl p-4 md:p-6'>
+                    <div className='flex items-center justify-center'>
+                        <img className='w-full object-cover object-top h-48' src={recipe} alt="" />
+                    </div>
+                    <h1 className='heading text-center my-1'>RECIPE</h1>
+                    <p><span className='heading'>Tech:</span> Next.js, Express.js, MongoDB, NextAuth, TypeScript, AI.</p>
+                    <p>(full responsive)</p>
+                    <div className='flex items-center justify-evenly mt-5 text-blue-700'>
+                        <Link
+                            target='blank'
+                            to="https://github.com/EmranAli-15/recipeShare-client.git"
+                            className='hover:underline'>
+                            Client repo
+                        </Link>
+                        <Link
+                            target='blank'
+                            to="https://github.com/EmranAli-15/recipeShare-server.git"
+                            className='hover:underline'>
+                            Server repo
+                        </Link>
+                        <Link
+                            target='blank'
+                            to="https://foodrecipe-client.vercel.app/"
+                            className='hover:underline'>
+                            Live
+                        </Link>
+                    </div>
+                </div>
+
+                <div className='border rounded-2xl p-4 md:p-6'>
+                    <div className='flex items-center justify-center'>
+                        <img className='w-full object-cover object-top h-48' src={graph} alt="" />
+                    </div>
+                    <h1 className='heading text-center my-1'>2D graph generator</h1>
+                    <p><span className='heading'>Tech:</span> React.js, TailWind CSS, AI. Used AI for solve equation.</p>
+                    <p>(full responsive)</p>
+                    <div className='flex items-center justify-evenly mt-5 text-blue-700'>
+                        <Link
+                            target='blank'
+                            to="https://github.com/EmranAli-15/graph-generator.git"
+                            className='hover:underline'>
+                            Client repo
+                        </Link>
+                        <Link
+                            target='blank'
+                            to="https://github.com/EmranAli-15/graph-generator-server.git"
+                            className='hover:underline'>
+                            Server repo
+                        </Link>
+                        <Link
+                            target='blank'
+                            to="https://flourishing-hotteok-ace9ab.netlify.app/"
+                            className='hover:underline'>
+                            Live
+                        </Link>
+                    </div>
+                </div>
+
+                <div className='border rounded-2xl p-4 md:p-6'>
+                    <div className='flex items-center justify-center'>
+                        <img className='w-full object-cover object-top h-48' src={tictactoe} alt="" />
+                    </div>
+                    <h1 className='heading text-center my-1'>Tic-Tac-Toe</h1>
+                    <p><span className='heading'>Tech:</span> React.js, TailwindCSS (No external AI or library).</p>
+                    <strong className='italic'>(Device will play against you)</strong>
+                    <div className='flex items-center justify-evenly mt-5 text-blue-700'>
+                        <Link
+                            target='blank'
+                            to="https://github.com/EmranAli-15/Tic-Tac-Toe.git"
+                            className='hover:underline'>
+                            Repository
+                        </Link>
+                        <Link
+                            target='blank'
+                            to="https://mellifluous-paprenjak-0c2914.netlify.app/"
+                            className='hover:underline'>
+                            Live
+                        </Link>
+                    </div>
+                </div>
+
+                <div className='border rounded-2xl p-4 md:p-6'>
+                    <div className='flex items-center justify-center'>
+                        <img className='w-full object-cover object-top h-48' src={memory} alt="" />
+                    </div>
+                    <h1 className='heading text-center my-1'>Memory match</h1>
+                    <p><span className='heading'>Tech:</span> React.js, TailwindCSS.</p>
+                    <p className='italic'>(Let's sharp your memory)</p>
+                    <div className='flex items-center justify-evenly mt-5 text-blue-700'>
+                        <Link
+                            target='blank'
+                            to="https://github.com/EmranAli-15/MemoryMatch.git"
+                            className='hover:underline'>
+                            Repository
+                        </Link>
+                        <Link
+                            target='blank'
+                            to="https://heartfelt-malabi-21d676.netlify.app/"
+                            className='hover:underline'>
+                            Live
+                        </Link>
+                    </div>
+                </div>
+
+                <div className='border rounded-2xl p-4 md:p-6'>
+                    <div className='flex items-center justify-center'>
+                        <img className='w-full object-cover object-bottom h-48' src={rockpaper} alt="" />
+                    </div>
+                    <h1 className='heading text-center my-1'>Rock-Paper-Scissor</h1>
+                    <p><span className='heading'>Tech:</span> React.js, TailwindCSS (No external AI or library).</p>
+                    <strong className='italic'>(Device will play against you)</strong>
+                    <div className='flex items-center justify-evenly mt-5 text-blue-700'>
+                        <Link
+                            target='blank'
+                            to="https://github.com/EmranAli-15/RockPaperScissor.git"
+                            className='hover:underline'>
+                            Repository
+                        </Link>
+                        <Link
+                            target='blank'
+                            to="https://zingy-pony-3ad8a5.netlify.app/"
+                            className='hover:underline'>
+                            Live
+                        </Link>
+                    </div>
+                </div>
+
+                <div className='border rounded-2xl p-4 md:p-6'>
+                    <div className='flex items-center justify-center'>
+                        <img className='w-full object-cover object-top h-48' src={hash} alt="" />
+                    </div>
+                    <h1 className='heading text-center my-1'>Hash text generator</h1>
+                    <p><span className='heading'>Tech:</span> React.js, Express.js (No external AI or library).</p>
+                    <strong className='italic'>(Make strong password by providing simple password)</strong>
+                    <div className='flex items-center justify-evenly mt-5 text-blue-700'>
+                        <Link
+                            target='blank'
+                            to="https://github.com/EmranAli-15/hash-generator-client.git"
+                            className='hover:underline'>
+                            Client repo
+                        </Link>
+                        <Link
+                            target='blank'
+                            to="https://github.com/EmranAli-15/hash-generator-server.git"
+                            className='hover:underline'>
+                            Server repo
+                        </Link>
+                        <Link
+                            target='blank'
+                            to="https://dreamy-frangollo-bc87d7.netlify.app/"
+                            className='hover:underline'>
+                            Live
+                        </Link>
+                    </div>
+                </div>
+            </section>
         </div>
     )
 }

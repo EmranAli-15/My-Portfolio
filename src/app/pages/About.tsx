@@ -32,7 +32,7 @@ export default function About() {
         <div className='border rounded-2xl p-4 md:p-6'>
           <div className='flex items-center justify-center'><img className='size-10' src={js} alt="" /></div>
           <h1 className='heading text-center text-cl'>JavaScript</h1>
-          <p>I'm a full time JS developer with most popular library Next.JS, React.JS and Express.JS. I did many project with React.JS and Next.JS and Integrate AI for become next level.</p>
+          <p>I'm a full time JS developer with most popular library Next.JS, React.JS and Express.JS. I did many project with React.JS and Next.JS and Integrate AI for bring it into next level.</p>
         </div>
         <div className='border rounded-2xl p-4 md:p-6'>
           <div className='flex items-center justify-center'><img className='size-12' src={py} alt="" /></div>

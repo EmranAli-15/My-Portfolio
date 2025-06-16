@@ -12,15 +12,14 @@ import { FaDiagramProject } from "react-icons/fa6";
 
 function App() {
   const { pathname: path } = useLocation();
-  console.log(path)
 
   const [isDarkMode, setIsDarkMode] = useState(() => {
-    return localStorage.getItem("theme") === "dark";
+    return localStorage.getItem("theme") === "light";
   });
 
   useEffect(() => {
-    document.body.className = isDarkMode ? "dark" : "light";
-    localStorage.setItem("theme", isDarkMode ? "dark" : "light");
+    document.body.className = isDarkMode ? "light" : "dark";
+    localStorage.setItem("theme", isDarkMode ? "light" : "dark");
   }, [isDarkMode]);
 
   return (
@@ -30,7 +29,7 @@ function App() {
       <div className="flex justify-end relative my-5">
         <button className="cursor-pointer" onClick={() => setIsDarkMode(!isDarkMode)}>
           {
-            isDarkMode ? <IoIosMoon size={30}></IoIosMoon> : <FiSun size={30}></FiSun>
+            isDarkMode ? <FiSun size={30}></FiSun> : <IoIosMoon size={30}></IoIosMoon> 
           }
         </button>
       </div>

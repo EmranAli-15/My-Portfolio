@@ -19,7 +19,7 @@ export default function About() {
 
       <section className='my-2'>
         <p>
-          I'm a full stack web developer and also have problem solving skills. In my university programming contest (SU intra-university programming contest 2025) I was 4<sup>th</sup>. I also did an internship as a frontend developer and played a role as a team leader. I did many project with AI features. Go to my project section, you will see everything.
+          I'm a full stack web developer and also have problem solving skills. In my university programming contest (SU inter-university programming contest 2025) I was 4<sup>th</sup>. I also did an internship as a frontend developer and played a role as a team leader. I did many project with AI features. Go to my project section, you will see everything.
         </p>
       </section>
 
@@ -27,7 +27,7 @@ export default function About() {
         <div className='border rounded-2xl p-4 md:p-6'>
           <div className='flex items-center justify-center'><img className='size-12' src={cpp} alt="" /></div>
           <h1 className='heading text-center text-cl'>C/C++</h1>
-          <p>I've well known idea about C and C++ programming. Every day I try to solve problem by this two language and was 4<sup>th</sup> in intra-university programming contest.</p>
+          <p>I've well known idea about C and C++ programming. Every day I try to solve problem by this two language and was 4<sup>th</sup> in inter-university programming contest.</p>
         </div>
         <div className='border rounded-2xl p-4 md:p-6'>
           <div className='flex items-center justify-center'><img className='size-10' src={js} alt="" /></div>

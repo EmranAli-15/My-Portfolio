@@ -34,6 +34,8 @@ export default function Home() {
                     <h1 className="heading font-semibold">mohammademranali15@gmail.com</h1>
                     <p>Location</p>
                     <h1 className="heading font-semibold">Dhaka, Bangladesh</h1>
+                    <p>WhatsApp</p>
+                    <h1 className="heading font-semibold">+88 01982740064</h1>
                 </div>
             </div>
         </div>

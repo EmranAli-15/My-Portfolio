@@ -2,6 +2,9 @@ import cpp from '../../assets/cpp.svg'
 import brain from '../../assets/brain.svg'
 import py from '../../assets/py.svg'
 import js from '../../assets/js.svg'
+import suC from '../../assets/certificates/suC.jpeg'
+import fccC from '../../assets/certificates/fccC.png'
+import phC from '../../assets/certificates/phC.png'
 
 import '../../App.css';
 import { Link } from 'react-router';
@@ -43,6 +46,24 @@ export default function About() {
           <div className='flex items-center justify-center'><img className='size-12' src={brain} alt="" /></div>
           <h1 className='heading text-center text-cl'>Problem Solve</h1>
           <p>I solved 100+ problem in a website named 'Toph.co'. I solved here many types of problem such as binary search, linier data structure, game theory, Ad-hoc, Brute force, geometry, math etc. <Link className='underline text-blue-500' target='black' to="https://toph.co/u/Emran_">my profile</Link></p>
+        </div>
+      </section>
+
+
+
+      <p className='text-center mt-20'><strong className='heading text-xl underline'>My Certificates</strong></p>
+      <section className='grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 mt-5'>
+        <div className='border rounded-2xl p-4 md:p-6'>
+          <img src={fccC} alt="" />
+          <p>Just earned the Legacy JavaScript Algorithms and Data Structures certification from freeCodeCamp! This certification covered core JavaScript concepts such as variables, functions, loops, arrays, objects, class, and algorithmic problem-solving.</p>
+        </div>
+        <div className='border rounded-2xl p-4 md:p-6'>
+          <img src={suC} alt="" />
+          <p>At Sonargaon University, programming contest (SU inter-university programming contest 2025) I secured my place 4<sup>th</sup> position.</p>
+        </div>
+        <div className='border rounded-2xl p-4 md:p-6'>
+          <img src={phC} alt="" />
+          <p>I successfully completed my web development journey from Programming Hero and gathered a lot of sills and did many interesting projects.</p>
         </div>
       </section>
 

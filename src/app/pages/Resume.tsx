@@ -22,9 +22,11 @@ export default function Resume() {
 
       <div>
         <h1 className="heading underline mt-3">Certifications:</h1>
-        <p>Legacy JavaScript Algorithm and Data Structures - FreeCodeCamp</p>
-        <p>Programming Contest - Sonargaon University</p>
-        <p>Web Development - Programming Hero</p>
+        <ul className="ml-4">
+          <li className="list-disc">Legacy JavaScript Algorithm and Data Structures - FreeCodeCamp</li>
+          <li className="list-disc">Programming Contest - Sonargaon University</li>
+          <li className="list-disc">Web Development - Programming Hero</li>
+        </ul>
       </div>
 
       <div>

@@ -1,5 +1,6 @@
 import { FaLinkedinIn, FaGithub, FaQuora } from "react-icons/fa";
 import { Link } from "react-router";
+import me from "../../assets/me.jpg";
 
 
 export default function Home() {
@@ -8,10 +9,10 @@ export default function Home() {
             <div className="px-8 py-2 grid grid-cols-1 md:grid-cols-3">
                 <div className="flex justify-center md:justify-start">
                     <div className="md:flex md:gap-x-5">
-                        <div>
+                        <div className="w-44 h-44">
                             <img
-                                className="size-44 object-cover rounded-4xl relative border-[8px] themed-border -mt-8"
-                                src="https://scontent.fdac138-2.fna.fbcdn.net/v/t1.6435-9/125491515_806171170163307_3859382215253306560_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=6I8falspgxkQ7kNvwErZEqI&_nc_oc=AdnxNlFzaX4A-QKDIGbAs0dA4FpuNTV3xAJJ2jWovCbPoU4BYh5z5egtnFELKrrITPo&_nc_zt=23&_nc_ht=scontent.fdac138-2.fna&_nc_gid=aADT35ujAgBTKUdQtlakGQ&oh=00_AfMnCUA3ByRqgXZcg9I2lHFJEAS13P-i4v5tVu5qVdtDOg&oe=6874E527" />
+                                className="w-full h-full object-center rounded-4xl relative border-[8px] themed-border -mt-8"
+                                src={me} />
                         </div>
                         <div>
                             <h1 className="text-3xl heading">Md. Emran Ali</h1>

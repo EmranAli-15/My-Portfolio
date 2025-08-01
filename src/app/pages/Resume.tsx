@@ -16,7 +16,7 @@ export default function Resume() {
       <div>
         <h1 className="heading underline mt-3">Tech Skills:</h1>
         <p><strong>Languages:</strong> C/C++, JavaScript, TypeScript, Python.</p>
-        <p><strong>Libraries:</strong> React.JS, Next.JS, Mongoose, Express.JS, Firebase, Redux, NextAUth, TailwindCSS, Bootstrap.</p>
+        <p><strong>Libraries:</strong> React.JS, Next.JS, Mongoose, Express.JS, React Native, Firebase, Redux, NextAUth, TailwindCSS, Bootstrap.</p>
         <p><strong>Database:</strong> MongoDB.</p>
       </div>
 

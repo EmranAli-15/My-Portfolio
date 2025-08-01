@@ -5,6 +5,7 @@ import tictactoe from '../../assets/projects/tictactoe.png'
 import memory from '../../assets/projects/memory.png'
 import rockpaper from '../../assets/projects/rockpaper.png'
 import hash from '../../assets/projects/hash.png'
+import taskManager from '../../assets/projects/taskManager.png'
 
 
 export default function Project() {
@@ -25,7 +26,7 @@ export default function Project() {
                         <img className='w-full object-cover object-top h-48' src={recipe} alt="" />
                     </div>
                     <h1 className='heading text-center my-1'>RECIPE</h1>
-                    <p><span className='heading'>Tech:</span> Next.js, Express.js, MongoDB, NextAuth, TypeScript, AI.</p>
+                    <p><span className='heading'>Tech:</span> Next.js, Express.js, MongoDB, NextAuth, TypeScript, Gemini AI.</p>
                     <p>(full responsive)</p>
                     <div className='flex items-center justify-evenly mt-5 text-blue-700'>
                         <Link
@@ -72,6 +73,35 @@ export default function Project() {
                         <Link
                             target='blank'
                             to="https://flourishing-hotteok-ace9ab.netlify.app/"
+                            className='hover:underline'>
+                            Live
+                        </Link>
+                    </div>
+                </div>
+
+                <div className='border rounded-2xl p-4 md:p-6'>
+                    <div className='flex items-center justify-center'>
+                        <img className='w-full object-cover object-top h-48' src={taskManager} alt="" />
+                    </div>
+                    <h1 className='heading text-center my-1'>Task Manager</h1>
+                    <p><span className='heading'>Tech:</span> React.js, Express.js, MongoDB, TypeScript, Tailwind CSS.</p>
+                    <p>(full responsive)</p>
+                    <div className='flex items-center justify-evenly mt-5 text-blue-700'>
+                        <Link
+                            target='blank'
+                            to="https://github.com/EmranAli-15/task-manager-client.git"
+                            className='hover:underline'>
+                            Client repo
+                        </Link>
+                        <Link
+                            target='blank'
+                            to="https://github.com/EmranAli-15/task-manager-server.git"
+                            className='hover:underline'>
+                            Server repo
+                        </Link>
+                        <Link
+                            target='blank'
+                            to="https://jovial-cactus-42f6ea.netlify.app/"
                             className='hover:underline'>
                             Live
                         </Link>

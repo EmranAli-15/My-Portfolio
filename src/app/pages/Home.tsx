@@ -1,6 +1,7 @@
 import { FaLinkedinIn, FaGithub, FaQuora } from "react-icons/fa";
 import { Link } from "react-router";
 import me from "../../assets/me.jpg";
+import toph from "../../assets/toph.png";
 
 
 export default function Home() {
@@ -18,9 +19,18 @@ export default function Home() {
                             <h1 className="text-3xl heading">Md. Emran Ali</h1>
                             <p className="text-center md:text-start">Full stack developer</p>
                             <div className="flex items-center justify-center md:justify-start gap-x-2 mt-1">
-                                <Link target="blank" to="https://www.linkedin.com/in/md-emran-ali-b58288212/"><FaLinkedinIn></FaLinkedinIn></Link>
-                                <Link target="blank" to="https://github.com/EmranAli-15"><FaGithub></FaGithub></Link>
-                                <Link target="black" to="https://bn.quora.com/profile/Mohammad-Emran-3"><FaQuora></FaQuora></Link>
+                                <Link target="blank" to="https://www.linkedin.com/in/md-emran-ali-b58288212/">
+                                    <FaLinkedinIn className="size-6"></FaLinkedinIn>
+                                </Link>
+                                <Link target="blank" to="https://github.com/EmranAli-15">
+                                    <FaGithub className="size-6"></FaGithub>
+                                </Link>
+                                <Link target="black" to="https://bn.quora.com/profile/Mohammad-Emran-3">
+                                    <FaQuora className="size-6"></FaQuora>
+                                </Link>
+                                <Link target="black" to="https://toph.co/u/Emran_">
+                                    <img className="size-6 rounded-full bg-gray-400" src={toph} alt="" />
+                                </Link>
                             </div>
                         </div>
                     </div>

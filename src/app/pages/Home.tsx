@@ -10,9 +10,9 @@ export default function Home() {
             <div className="px-8 py-2 grid grid-cols-1 md:grid-cols-3">
                 <div className="flex justify-center md:justify-start">
                     <div className="md:flex md:gap-x-5">
-                        <div className="w-44 h-44">
+                        <div className="w-44 h-44 rounded-4xl relative border-[8px] themed-border -mt-8">
                             <img
-                                className="w-full h-full object-center rounded-4xl relative border-[8px] themed-border -mt-8"
+                                className="w-full h-full object-center rounded-4xl"
                                 src={me} />
                         </div>
                         <div>

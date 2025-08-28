@@ -30,12 +30,12 @@ export default function About() {
         <div className='border rounded-2xl p-4 md:p-6'>
           <div className='flex items-center justify-center'><img className='size-12' src={cpp} alt="" /></div>
           <h1 className='heading text-center text-cl'>C/C++</h1>
-          <p>I've well known idea about C and C++ programming. Every day I try to solve problem by this two language and was 4<sup>th</sup> in inter-university programming contest.</p>
+          <p>I've well known idea about C and C++ programming. Every day I solve problem by this language on Toph. And was 4<sup>th</sup> in inter-university programming contest.</p>
         </div>
         <div className='border rounded-2xl p-4 md:p-6'>
           <div className='flex items-center justify-center'><img className='size-10' src={js} alt="" /></div>
           <h1 className='heading text-center text-cl'>JavaScript</h1>
-          <p>I'm a full time JS developer with most popular library Next.JS, React.JS and Express.JS. I did many project with React.JS and Next.JS and Integrate AI for bring it into next level.</p>
+          <p>I'm a full time JS developer with most popular library Next.JS, React.JS, React Native and Express.JS. I did many project with React.JS and Next.JS and Integrate AI for bring it into next level.</p>
         </div>
         <div className='border rounded-2xl p-4 md:p-6'>
           <div className='flex items-center justify-center'><img className='size-12' src={py} alt="" /></div>
@@ -45,7 +45,7 @@ export default function About() {
         <div className='border rounded-2xl p-4 md:p-6'>
           <div className='flex items-center justify-center'><img className='size-12' src={brain} alt="" /></div>
           <h1 className='heading text-center text-cl'>Problem Solve</h1>
-          <p>I solved 100+ problem in a website named 'Toph.co'. I solved here many types of problem such as binary search, linier data structure, game theory, Ad-hoc, Brute force, geometry, math etc. <Link className='underline text-blue-500' target='black' to="https://toph.co/u/Emran_">my profile</Link></p>
+          <p>I solved <span className='heading'>160+</span> problem in a website named 'Toph.co'. I solved here many types of problem such as binary search, linier data structure, game theory, Ad-hoc, Brute force, geometry, math etc. <Link className='underline text-blue-500' target='black' to="https://toph.co/u/Emran_">my profile</Link></p>
         </div>
       </section>
 

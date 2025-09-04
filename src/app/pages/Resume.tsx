@@ -16,16 +16,16 @@ export default function Resume() {
       <div>
         <h1 className="heading underline mt-3">Tech Skills:</h1>
         <p><strong>Languages:</strong> C/C++, JavaScript, TypeScript, Python.</p>
-        <p><strong>Libraries:</strong> React.JS, Next.JS, React Native, Mongoose, Express.JS, React Native, Firebase, Redux, NextAUth, TailwindCSS.</p>
-        <p><strong>Database:</strong> MongoDB.</p>
+        <p><strong>Libraries:</strong> React.JS, Next.JS, React Native, Mongoose, Express.JS, Firebase, Redux, NextAUth, TailwindCSS.</p>
+        <p><strong>Database:</strong> MongoDB, (familiar with SQL).</p>
       </div>
 
       <div>
         <h1 className="heading underline mt-3">Certifications:</h1>
         <ul className="ml-4">
-          <li className="list-disc">Legacy JavaScript Algorithm and Data Structures - FreeCodeCamp</li>
-          <li className="list-disc">Programming Contest - Sonargaon University</li>
-          <li className="list-disc">Web Development - Programming Hero</li>
+          <li className="list-disc">Legacy JavaScript Algorithm and Data Structures - <strong>FreeCodeCamp</strong></li>
+          <li className="list-disc">Programming Contest - <strong>Sonargaon University</strong></li>
+          <li className="list-disc">Web Development - <strong>Programming Hero</strong></li>
         </ul>
       </div>
 

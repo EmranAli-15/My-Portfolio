@@ -3,6 +3,7 @@ import App from "../App";
 import About from "./pages/About";
 import Project from "./pages/Project";
 import Resume from "./pages/Resume";
+import TaskManager from "./mobileApp/TaskManager";
 
 const router = createBrowserRouter([
     {
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
             {
                 path: "/resume",
                 Component: Resume
+            },
+            {
+                path: "/taskManagerMobileApp",
+                Component: TaskManager
             }
         ]
     }

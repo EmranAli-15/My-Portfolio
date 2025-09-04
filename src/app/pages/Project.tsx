@@ -6,6 +6,7 @@ import memory from '../../assets/projects/memory.png'
 import rockpaper from '../../assets/projects/rockpaper.png'
 import hash from '../../assets/projects/hash.png'
 import taskManager from '../../assets/projects/taskManager.png'
+import taskManagerMobile from '../../assets/projects/mobileApp/two.jpg'
 
 
 export default function Project() {
@@ -104,6 +105,20 @@ export default function Project() {
                             to="https://jovial-cactus-42f6ea.netlify.app/"
                             className='hover:underline'>
                             Live
+                        </Link>
+                    </div>
+                </div>
+
+                {/* Task manager mobile app */}
+                <div className='border rounded-2xl p-4 md:p-6'>
+                    <div className='flex items-center justify-center'>
+                        <img className='w-full object-cover object-top h-48' src={taskManagerMobile} alt="" />
+                    </div>
+                    <h1 className='heading text-center my-1'>Task Manager (Mobile App - React Native)</h1>
+                    <p><span className='heading'>Tech:</span> React Native, TypeScript.</p>
+                    <div className='flex items-center justify-evenly mt-5 text-blue-700'>
+                        <Link to="/taskManagerMobileApp">
+                            GO Inside
                         </Link>
                     </div>
                 </div>

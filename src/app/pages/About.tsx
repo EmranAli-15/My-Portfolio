@@ -45,7 +45,7 @@ export default function About() {
         <div className='border rounded-2xl p-4 md:p-6'>
           <div className='flex items-center justify-center'><img className='size-12' src={brain} alt="" /></div>
           <h1 className='heading text-center text-cl'>Problem Solve</h1>
-          <p>I solved <span className='heading'>160+</span> problem in a website named 'Toph.co'. I solved here many types of problem such as binary search, linier data structure, game theory, Ad-hoc, Brute force, geometry, math etc. <Link className='underline text-blue-500' target='black' to="https://toph.co/u/Emran_">my profile</Link></p>
+          <p>I solved <span className='heading'>170+</span> problem in a website named 'Toph.co'. I solved here many types of problem such as binary search, linier data structure, game theory, Ad-hoc, Brute force, geometry, math etc. <Link className='underline text-blue-500' target='black' to="https://toph.co/u/Emran_">my profile</Link></p>
         </div>
       </section>
 

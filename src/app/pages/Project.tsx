@@ -7,6 +7,7 @@ import rockpaper from '../../assets/projects/rockpaper.png'
 import hash from '../../assets/projects/hash.png'
 import taskManager from '../../assets/projects/taskManager.png'
 import taskManagerMobile from '../../assets/projects/mobileApp/two.jpg'
+import tastManagerMobileOffline from "../../assets/projects/mobileApp/taskManagerOffline/two.jpg"
 
 
 export default function Project() {
@@ -27,7 +28,7 @@ export default function Project() {
                         <img className='w-full object-cover object-top h-48' src={recipe} alt="" />
                     </div>
                     <h1 className='heading text-center my-1'>RECIPE</h1>
-                    <p><span className='heading'>Tech:</span> Next.js, Express.js, MongoDB, NextAuth, TypeScript, Gemini AI.</p>
+                    <p><span className='heading'>Tech:</span> Next.js, Express.js, MongoDB, NextAuth, TypeScript, DeepSeek AI.</p>
                     <p>(full responsive)</p>
                     <div className='flex items-center justify-evenly mt-5 text-blue-700'>
                         <Link
@@ -109,19 +110,45 @@ export default function Project() {
                     </div>
                 </div>
 
-                {/* Task manager mobile app */}
-                <div className='border rounded-2xl p-4 md:p-6'>
+
+                {/* Mobile app section */}
+                {/* Task manager mobile app online */}
+                <div className='border rounded-2xl p-4 overflow-hidden md:p-6 relative'>
+                    <div className='-rotate-45 absolute bg-orange-400 px-5 top-6 -left-[26px]'>
+                        <h1 className='text-black font-bold'>Mobile App</h1>
+                    </div>
+
                     <div className='flex items-center justify-center'>
                         <img className='w-full object-cover object-top h-48' src={taskManagerMobile} alt="" />
                     </div>
-                    <h1 className='heading text-center my-1'>Task Manager (Mobile App - React Native)</h1>
-                    <p><span className='heading'>Tech:</span> React Native, TypeScript.</p>
+                    <h1 className='heading text-center my-1'>Notion (Task Manager mobile version)</h1>
+                    <p><span className='heading'>Tech:</span> React Native, TypeScript and mongo-express server</p>
                     <div className='flex items-center justify-evenly mt-5 text-blue-700'>
                         <Link to="/taskManagerMobileApp">
                             GO Inside
                         </Link>
                     </div>
                 </div>
+
+
+                {/* Task manager mobile app Offline */}
+                <div className='border rounded-2xl p-4 overflow-hidden md:p-6 relative'>
+                    <div className='-rotate-45 absolute bg-orange-400 px-5 top-6 -left-[26px]'>
+                        <h1 className='text-black font-bold'>Mobile App</h1>
+                    </div>
+
+                    <div className='flex items-center justify-center'>
+                        <img className='w-full object-cover object-top h-48' src={tastManagerMobileOffline} alt="" />
+                    </div>
+                    <h1 className='heading text-center my-1'>Offline Notes Keeper</h1>
+                    <p><span className='heading'>Tech:</span> React Native, SQLite, TypeScript.</p>
+                    <div className='flex items-center justify-evenly mt-5 text-blue-700'>
+                        <Link to="/taskManagerMobileAppOffline">
+                            GO Inside
+                        </Link>
+                    </div>
+                </div>
+                {/* Mobile app section */}
 
                 <div className='border rounded-2xl p-4 md:p-6'>
                     <div className='flex items-center justify-center'>

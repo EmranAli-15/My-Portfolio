@@ -4,6 +4,7 @@ import About from "./pages/About";
 import Project from "./pages/Project";
 import Resume from "./pages/Resume";
 import TaskManager from "./mobileApp/TaskManager";
+import TaskManagerOffline from "./mobileApp/TaskManagerOffline";
 
 const router = createBrowserRouter([
     {
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
             {
                 path: "/taskManagerMobileApp",
                 Component: TaskManager
+            },
+            {
+                path: "/taskManagerMobileAppOffline",
+                Component: TaskManagerOffline
             }
         ]
     }

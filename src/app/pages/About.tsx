@@ -58,7 +58,7 @@ export default function About() {
       <section className='grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 mt-5'>
         <div className='border rounded-2xl p-4 md:p-6'>
           <img src={coderHuntFall} alt="" />
-          <p>Sequired <span className='heading'>2<sup>nd</sup></span> position in 'SUPC Coder Hunt Fall-25' intra university programming contest.</p>
+          <p>Secured <span className='heading'>2<sup>nd</sup></span> position in 'SUPC Coder Hunt Fall-25' intra university programming contest.</p>
         </div>
         <div className='border rounded-2xl p-4 md:p-6'>
           <img src={fccC} alt="" />

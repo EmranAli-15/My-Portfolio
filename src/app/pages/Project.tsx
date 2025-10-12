@@ -5,6 +5,7 @@ import tictactoe from '../../assets/projects/tictactoe.png'
 import memory from '../../assets/projects/memory.png'
 import rockpaper from '../../assets/projects/rockpaper.png'
 import hash from '../../assets/projects/hash.png'
+import bookWorld from '../../assets/projects/bookWorld.png'
 import taskManager from '../../assets/projects/taskManager.png'
 import taskManagerMobile from '../../assets/projects/mobileApp/two.jpg'
 import tastManagerMobileOffline from "../../assets/projects/mobileApp/taskManagerOffline/two.jpg"
@@ -29,7 +30,7 @@ export default function Project() {
                     </div>
                     <h1 className='heading text-center my-1'>RECIPE</h1>
                     <p><span className='heading'>Tech:</span> Next.js, Express.js, MongoDB, NextAuth, TypeScript, DeepSeek AI.</p>
-                    <p>(full responsive)</p>
+                    <p>(full responsive also have User based dashboard)</p>
                     <div className='flex items-center justify-evenly mt-5 text-blue-700'>
                         <Link
                             target='blank'
@@ -46,6 +47,35 @@ export default function Project() {
                         <Link
                             target='blank'
                             to="https://foodrecipe-client.vercel.app/"
+                            className='hover:underline'>
+                            Live
+                        </Link>
+                    </div>
+                </div>
+
+                <div className='border rounded-2xl p-4 md:p-6'>
+                    <div className='flex items-center justify-center'>
+                        <img className='w-full object-cover object-top h-48' src={bookWorld} alt="" />
+                    </div>
+                    <h1 className='heading text-center my-1'>Book World</h1>
+                    <p><span className='heading'>Tech:</span> Next.js, Express.js, MongoDB, NextAuth, TypeScript</p>
+                    <p>(full responsive and used SSR, SSG for fast and caching mechanism and includes user based dashboard)</p>
+                    <div className='flex items-center justify-evenly mt-5 text-blue-700'>
+                        <Link
+                            target='blank'
+                            to="https://github.com/EmranAli-15/BookWorld-client.git"
+                            className='hover:underline'>
+                            Client repo
+                        </Link>
+                        <Link
+                            target='blank'
+                            to="https://github.com/EmranAli-15/BookWorld-server.git"
+                            className='hover:underline'>
+                            Server repo
+                        </Link>
+                        <Link
+                            target='blank'
+                            to="https://bookworld-client.vercel.app/"
                             className='hover:underline'>
                             Live
                         </Link>

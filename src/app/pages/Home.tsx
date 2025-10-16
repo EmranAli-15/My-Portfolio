@@ -42,7 +42,7 @@ export default function Home() {
 
                 <div>
                     <p>Email</p>
-                    <h1 className="heading font-semibold">mohammademranali15@gmail.com</h1>
+                    <h1 className="heading font-semibold">emranali2401@gmail.com</h1>
                     <p>Location</p>
                     <h1 className="heading font-semibold">Dhaka, Bangladesh</h1>
                     <p>WhatsApp</p>

@@ -271,7 +271,7 @@ export default function Project() {
                         </Link>
                         <Link
                             target='blank'
-                            to="https://dreamy-frangollo-bc87d7.netlify.app/"
+                            to="https://emran-hash-generator.netlify.app/"
                             className='hover:underline'>
                             Live
                         </Link>

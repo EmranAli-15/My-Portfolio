@@ -40,7 +40,7 @@ export default function About() {
           </div>
           <h2 className='text-xl font-bold text-center mb-2'>C/C++ Programming</h2>
           <p className='text-sm leading-relaxed opacity-80 text-justify'>
-            Possess a robust foundation in C and C++ core concepts. Passionate about competitive programming, actively solving algorithmic challenges daily. Notably achieved <span className='font-bold text-amber-500 dark:text-amber-400'>2nd and 4th place</span> in Inter-University Programming Contests, demonstrating strong core logical capabilities.
+            I've well known idea about C and C++ programming. Every day I solve problem by this language on Toph. And was <span className='text-orange-500 font-bold'>2nd and 4th</span> in inter-university programming contest.
           </p>
         </div>
 
@@ -51,7 +51,7 @@ export default function About() {
           </div>
           <h2 className='text-xl font-bold text-center mb-2'>JavaScript & Full-Stack</h2>
           <p className='text-sm leading-relaxed opacity-80 text-justify'>
-            A dedicated full-stack developer specializing in the modern JS ecosystem, including <span className='font-semibold'>Next.js, React.js, React Native, and Express.js</span>. Certified by <span className='font-medium text-indigo-600 dark:text-indigo-400'>FreeCodeCamp</span>, with extensive experience driving production-ready applications enhanced by cutting-edge AI integrations.
+            A dedicated full-stack developer specializing in the modern JS ecosystem, including <span className='font-semibold'>Next.js, React.js, React Native, and Express.js</span>. Certified by <span className='font-bold text-orange-500'>FreeCodeCamp</span>, with extensive experience driving production-ready applications enhanced by cutting-edge AI integrations.
           </p>
         </div>
 
@@ -62,7 +62,7 @@ export default function About() {
           </div>
           <h2 className='text-xl font-bold text-center mb-2'>Python Programming</h2>
           <p className='text-sm leading-relaxed opacity-80 text-justify'>
-            Successfully achieved official certification from <span className='font-medium text-indigo-600 dark:text-indigo-400'>FreeCodeCamp</span> in Python. Proficient in basic syntax, Object-Oriented Programming (OOP) architectures, and currently solving complex data structure challenges to migrate logical patterns mastered in C/C++.
+            Successfully achieved official certification from <span className='font-bold text-orange-500'>FreeCodeCamp</span> in Python. Proficient in basic syntax, Object-Oriented Programming (OOP) architectures, and currently solving complex data structure challenges to migrate logical patterns mastered in C/C++.
           </p>
         </div>
 
@@ -73,11 +73,11 @@ export default function About() {
           </div>
           <h2 className='text-xl font-bold text-center mb-2'>Problem Solving</h2>
           <p className='text-sm leading-relaxed opacity-80 text-justify mb-4'>
-            Solved over <span className='font-bold text-amber-500 dark:text-amber-400'>180+ problems</span> on Toph.co across diverse domains, including Binary Search, Linear Data Structures, Game Theory, Ad-hoc logic, Brute Force, Geometry, and Mathematics.
+            Solved over <span className='font-bold text-orange-500'>190+ problems</span> on Toph.co across diverse domains, including Binary Search, Linear Data Structures, Game Theory, Ad-hoc logic, Brute Force, Geometry, and Mathematics.
           </p>
           <div className='mt-auto pt-2 text-center'>
             <Link
-              className='inline-flex items-center gap-1 text-xs font-semibold uppercase tracking-wide text-indigo-600 dark:text-indigo-400 hover:underline'
+              className='inline-flex items-center gap-1 text-xs font-semibold uppercase tracking-wide text-indigo-400 hover:underline'
               target='_blank'
               to="https://toph.co/u/Emran_"
             >

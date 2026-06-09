@@ -58,7 +58,6 @@ export default function Project() {
             "name": "Task Manager",
             "tech": "React.js, Express.js, MongoDB, TypeScript, Tailwind CSS",
             "summary": "A fully responsive full-stack task management application designed for streamlined workflow control, deadline tracking, and task organization.",
-            "highlight": "Comprehensive CRUD Operations: Features dynamic state management for task statuses, secure data persistence, and an optimized user dashboard layout.",
             "links": {
                 "client": "https://github.com/EmranAli-15/task-manager-client.git",
                 "server": "https://github.com/EmranAli-15/task-manager-server.git",
@@ -193,12 +192,14 @@ export default function Project() {
                             <div className='flex-grow'>
                                 <h2 className='heading text-center mb-2'>{p.name}</h2>
                                 <p className='text-sm mb-3 opacity-90'>
-                                    <span className='font-semibold'>Tech: </span>
-                                    <span className='text-indigo-600 dark:text-indigo-400 font-medium'>{p.tech}</span>
+                                    <span className='font-semibold text-[16px]'>Tech: </span>
+                                    <span className='text-indigo-400 text-[16px] font-medium'>{p.tech}</span>
                                 </p>
-                                <div className='bg-indigo-500/10 border-l-4 border-indigo-500 p-3 rounded-r-lg my-3'>
-                                    <p className='text-sm font-medium'>✨ {p.highlight}</p>
-                                </div>
+                                {
+                                    p.highlight && <div className='bg-indigo-500/10 border-l-4 border-indigo-500 p-3 rounded-r-lg my-3'>
+                                        <p className='text-sm font-medium'>✨ {p.highlight}</p>
+                                    </div>
+                                }
                                 <p className='text-sm leading-relaxed opacity-80'>{p.summary}</p>
                             </div>
                             <div className='flex items-center justify-between border-t border-black/10 dark:border-white/10 pt-4 mt-5'>
@@ -261,7 +262,7 @@ export default function Project() {
                                 <h2 className='text-xl font-bold mb-2'>{p.name}</h2>
                                 <p className='text-sm mb-3 opacity-90'>
                                     <span className='font-semibold'>Tech: </span>
-                                    <span className='text-indigo-600 dark:text-indigo-400 font-medium'>{p.tech}</span>
+                                    <span className='text-indigo-400 font-medium'>{p.tech}</span>
                                 </p>
                                 <div className='bg-indigo-500/10 border-l-4 border-indigo-500 p-3 rounded-r-lg my-3'>
                                     <p className='text-sm font-medium'>🎮 {p.highlight}</p>

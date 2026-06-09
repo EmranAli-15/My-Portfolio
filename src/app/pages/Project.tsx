@@ -50,7 +50,7 @@ export default function Project() {
             "links": {
                 "client": "https://github.com/EmranAli-15/graph-generator.git",
                 "server": "https://github.com/EmranAli-15/graph-generator-server.git",
-                "live": "https://flourishing-hotteok-ace9ab.netlify.app/"
+                "live": "https://emranali-graph-generator.netlify.app/"
             }
         },
         {
@@ -73,7 +73,7 @@ export default function Project() {
             "links": {
                 "client": "https://github.com/EmranAli-15/hash-generator-client.git",
                 "server": "https://github.com/EmranAli-15/hash-generator-server.git",
-                "live": "https://emran-hash-generator.netlify.app/"
+                "live": "https://emranali-hash-generator.netlify.app/"
             }
         },
     ];
@@ -119,7 +119,7 @@ export default function Project() {
             "links": {
                 "client": "https://github.com/EmranAli-15/Tic-Tac-Toe.git",
                 "server": "",
-                "live": "https://mellifluous-paprenjak-0c2914.netlify.app/"
+                "live": "https://emranali-tic-tac-toe.netlify.app/"
             }
         },
         {
@@ -131,7 +131,7 @@ export default function Project() {
             "links": {
                 "client": "https://github.com/EmranAli-15/MemoryMatch.git",
                 "server": "",
-                "live": "https://heartfelt-malabi-21d676.netlify.app/"
+                "live": "https://emranali-memory-match.netlify.app/"
             }
         },
         {
@@ -143,7 +143,7 @@ export default function Project() {
             "links": {
                 "client": "https://github.com/EmranAli-15/RockPaperScissor.git",
                 "server": "",
-                "live": "https://zingy-pony-3ad8a5.netlify.app/"
+                "live": "https://emranali-rock-paper-scissor.netlify.app/"
             }
         },
     ];
@@ -163,19 +163,19 @@ export default function Project() {
             <div className='flex flex-wrap gap-2 md:gap-4 border-b border-black/10 dark:border-white/10 pb-4 mb-8 text-sm font-medium'>
                 <button
                     onClick={() => setActiveTab('full-stack')}
-                    className={`px-4 py-2 rounded-xl transition-all duration-200 capitalize ${activeTab === 'full-stack' ? 'bg-indigo-600 text-white shadow-sm' : 'bg-black/5 dark:bg-white/5 hover:bg-black/10 dark:hover:bg-white/10'}`}
+                    className={`px-2 py-1 rounded-md transition-all duration-200 capitalize cursor-pointer ${activeTab === 'full-stack' ? 'bg-indigo-600 text-white shadow-sm' : 'bg-black/5 border-indigo-600 border'}`}
                 >
                     🖥️ Web Full-Stack
                 </button>
                 <button
                     onClick={() => setActiveTab('mobile')}
-                    className={`px-4 py-2 rounded-xl transition-all duration-200 capitalize ${activeTab === 'mobile' ? 'bg-indigo-600 text-white shadow-sm' : 'bg-black/5 dark:bg-white/5 hover:bg-black/10 dark:hover:bg-white/10'}`}
+                    className={`px-2 py-1 rounded-md transition-all duration-200 capitalize cursor-pointer ${activeTab === 'mobile' ? 'bg-indigo-600 text-white shadow-sm' : 'bg-black/5 border-indigo-600 border'}`}
                 >
                     📱 Mobile Apps
                 </button>
                 <button
                     onClick={() => setActiveTab('games')}
-                    className={`px-4 py-2 rounded-xl transition-all duration-200 capitalize ${activeTab === 'games' ? 'bg-indigo-600 text-white shadow-sm' : 'bg-black/5 dark:bg-white/5 hover:bg-black/10 dark:hover:bg-white/10'}`}
+                    className={`px-2 py-1 rounded-md transition-all duration-200 capitalize cursor-pointer ${activeTab === 'games' ? 'bg-indigo-600 text-white shadow-sm' : 'bg-black/5 border-indigo-600 border'}`}
                 >
                     🕹️ Games & Logic Labs
                 </button>
@@ -186,14 +186,14 @@ export default function Project() {
                 <section className='grid grid-cols-1 md:grid-cols-2 gap-6 animate-fadeIn'>
                     {web_projects.map((p, index) => (
                         <div key={index} className='group border rounded-2xl p-5 md:p-6 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between h-full transform hover:-translate-y-1'>
-                            <div className='overflow-hidden rounded-xl mb-4 bg-opacity-10 bg-black/5 dark:bg-white/5'>
-                                <img className='w-full object-cover object-top h-48 group-hover:scale-105 transition-transform duration-300' src={p.image} alt={p.name} />
+                            <div className='overflow-hidden rounded-xl mb-4'>
+                                <img className='w-full object-cover object-top h-56 group-hover:scale-105 transition-transform duration-300' src={p.image} alt={p.name} />
                             </div>
                             <div className='flex-grow'>
                                 <h2 className='heading text-center mb-2'>{p.name}</h2>
                                 <p className='text-sm mb-3 opacity-90'>
                                     <span className='font-semibold text-[16px]'>Tech: </span>
-                                    <span className='text-indigo-400 text-[16px] font-medium'>{p.tech}</span>
+                                    <span className='text-indigo-400 text-[16px]'>{p.tech}</span>
                                 </p>
                                 {
                                     p.highlight && <div className='bg-indigo-500/10 border-l-4 border-indigo-500 p-3 rounded-r-lg my-3'>
@@ -226,14 +226,14 @@ export default function Project() {
                             <div className='-rotate-45 absolute bg-orange-500 text-white font-bold text-[10px] tracking-wider px-6 py-1 top-3 -left-[28px] uppercase shadow-sm z-10'>
                                 Mobile
                             </div>
-                            <div className='overflow-hidden rounded-xl mb-4 bg-opacity-10 bg-black/5 dark:bg-white/5'>
-                                <img className='w-full object-cover object-top h-48 group-hover:scale-105 transition-transform duration-300' src={p.image} alt={p.name} />
+                            <div className='overflow-hidden rounded-xl mb-4'>
+                                <img className='w-full object-cover object-top h-56 group-hover:scale-105 transition-transform duration-300' src={p.image} alt={p.name} />
                             </div>
                             <div className='flex-grow'>
-                                <h2 className='text-xl font-bold mb-2 pl-4'>{p.name}</h2>
+                                <h2 className='heading text-center mb-4'>{p.name}</h2>
                                 <p className='text-sm mb-3 opacity-90'>
-                                    <span className='font-semibold'>Tech: </span>
-                                    <span className='text-indigo-600 dark:text-indigo-400 font-medium'>{p.tech}</span>
+                                    <span className='font-semibold text-[16px]'>Tech: </span>
+                                    <span className='text-indigo-400 text-[16px]'>{p.tech}</span>
                                 </p>
                                 <div className='bg-indigo-500/10 border-l-4 border-indigo-500 p-3 rounded-r-lg my-3'>
                                     <p className='text-sm font-medium'>📱 {p.highlight}</p>
@@ -255,14 +255,14 @@ export default function Project() {
                 <section className='grid grid-cols-1 md:grid-cols-2 gap-6 animate-fadeIn'>
                     {web_games.map((p, index) => (
                         <div key={index} className='group border rounded-2xl p-5 md:p-6 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between h-full transform hover:-translate-y-1'>
-                            <div className='overflow-hidden rounded-xl mb-4 bg-opacity-10 bg-black/5 dark:bg-white/5'>
-                                <img className='w-full object-cover object-top h-48 group-hover:scale-105 transition-transform duration-300' src={p.image} alt={p.name} />
+                            <div className='overflow-hidden rounded-xl mb-4'>
+                                <img className='w-full object-cover object-top h-56 group-hover:scale-105 transition-transform duration-300' src={p.image} alt={p.name} />
                             </div>
                             <div className='flex-grow'>
-                                <h2 className='text-xl font-bold mb-2'>{p.name}</h2>
+                                <h2 className='heading mb-4 text-center'>{p.name}</h2>
                                 <p className='text-sm mb-3 opacity-90'>
-                                    <span className='font-semibold'>Tech: </span>
-                                    <span className='text-indigo-400 font-medium'>{p.tech}</span>
+                                    <span className='font-semibold text-[16px]'>Tech: </span>
+                                    <span className='text-indigo-400 text-[16px]'>{p.tech}</span>
                                 </p>
                                 <div className='bg-indigo-500/10 border-l-4 border-indigo-500 p-3 rounded-r-lg my-3'>
                                     <p className='text-sm font-medium'>🎮 {p.highlight}</p>

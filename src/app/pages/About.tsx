@@ -95,78 +95,78 @@ export default function About() {
 
         {/* 1. SUPC Coder Hunt - Award Certificate */}
         <div className='group border rounded-2xl p-5 md:p-6 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between transform hover:-translate-y-1 relative overflow-hidden'>
-          <div className='overflow-hidden rounded-xl mb-4 bg-black/5 dark:bg-white/5 flex items-center justify-center'>
-            <img className='w-full object-cover max-h-56 group-hover:scale-105 transition-transform duration-300' src={coderHuntFall} alt="SUPC Coder Hunt Certificate" />
+          <div className='overflow-hidden rounded-xl mb-4'>
+            <img className='w-full object-cover object-bottom max-h-56 group-hover:scale-105 transition-transform duration-300' src={coderHuntFall} alt="SUPC Coder Hunt Certificate" />
           </div>
           <div className='flex-grow'>
-            <h3 className='text-lg font-bold mb-2'>SUPC Coder Hunt Fall-25 (Official Certificate)</h3>
+            <h3 className='heading text-center mb-2'>SUPC Coder Hunt Fall-25 (Official Certificate)</h3>
             <p className='text-sm leading-relaxed opacity-80 text-justify'>
-              Proudly secured the <span className='font-bold text-amber-500 dark:text-amber-400'>2nd Position</span> in the 'SUPC Coder Hunt Fall-25' Intra-University Programming Contest, competing against top-tier problem solvers under rigorous algorithmic evaluation.
+              Proudly secured the <span className='font-bold text-orange-500'>2nd Position</span> in the 'SUPC Coder Hunt Fall-25' Intra-University Programming Contest, competing against top-tier problem solvers under rigorous algorithmic evaluation.
             </p>
           </div>
         </div>
 
         {/* 2. FreeCodeCamp JavaScript Certification */}
         <div className='group border rounded-2xl p-5 md:p-6 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between transform hover:-translate-y-1 relative overflow-hidden'>
-          <div className='overflow-hidden rounded-xl mb-4 bg-black/5 dark:bg-white/5 flex items-center justify-center'>
-            <img className='w-full object-cover max-h-56 group-hover:scale-105 transition-transform duration-300' src={fccC} alt="FreeCodeCamp JS Certification" />
+          <div className='overflow-hidden rounded-xl mb-4'>
+            <img className='w-full object-cover object-top max-h-56 group-hover:scale-105 transition-transform duration-300' src={fccC} alt="FreeCodeCamp JS Certification" />
           </div>
           <div className='flex-grow'>
-            <h3 className='text-lg font-bold mb-2'>Legacy JavaScript Algorithms & Data Structures</h3>
+            <h3 className='heading text-center mb-2'>Legacy JavaScript Algorithms & Data Structures</h3>
             <p className='text-sm leading-relaxed opacity-80 text-justify'>
-              Earned from <span className='font-semibold text-indigo-600 dark:text-indigo-400'>freeCodeCamp</span>. This intensive certification validates deep technical expertise in core JavaScript architectures, OOP concepts, functional programming, and automated algorithmic problem-solving.
+              Earned from <span className='font-bold text-orange-500'>freeCodeCamp</span>. This intensive certification validates deep technical expertise in core JavaScript architectures, OOP concepts, functional programming, and automated algorithmic problem-solving.
             </p>
           </div>
         </div>
 
         {/* 3. FreeCodeCamp Python Certification */}
         <div className='group border rounded-2xl p-5 md:p-6 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between transform hover:-translate-y-1 relative overflow-hidden'>
-          <div className='overflow-hidden rounded-xl mb-4 bg-black/5 dark:bg-white/5 flex items-center justify-center'>
-            <img className='w-full object-cover max-h-56 group-hover:scale-105 transition-transform duration-300' src={pythonFcc} alt="FreeCodeCamp Python Certification" />
+          <div className='overflow-hidden rounded-xl mb-4'>
+            <img className='w-full object-cover object-top max-h-56 group-hover:scale-105 transition-transform duration-300' src={pythonFcc} alt="FreeCodeCamp Python Certification" />
           </div>
           <div className='flex-grow'>
-            <h3 className='text-lg font-bold mb-2'>Legacy Python Developer Certification</h3>
+            <h3 className='heading text-center mb-2'>Legacy Python Developer Certification</h3>
             <p className='text-sm leading-relaxed opacity-80 text-justify'>
-              Issued by <span className='font-semibold text-indigo-600 dark:text-indigo-400'>freeCodeCamp</span>. Comprehensively covers advanced Python scripting syntax, dynamic data structures (Lists, Dictionaries), class objects, and clean logical computation.
+              Issued by <span className='font-bold text-orange-500'>freeCodeCamp</span>. Comprehensively covers advanced Python scripting syntax, dynamic data structures (Lists, Dictionaries), class objects, and clean logical computation.
             </p>
           </div>
         </div>
 
         {/* 4. SUPC Coder Hunt - Success Moment/Trophy */}
         <div className='group border rounded-2xl p-5 md:p-6 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between transform hover:-translate-y-1 relative overflow-hidden'>
-          <div className='overflow-hidden rounded-xl mb-4 bg-black/5 dark:bg-white/5 flex items-center justify-center'>
-            <img className='w-full object-cover max-h-56 group-hover:scale-105 transition-transform duration-300' src={coderHuntFallS} alt="SUPC Coder Hunt Podium" />
+          <div className='overflow-hidden rounded-xl mb-4'>
+            <img className='w-full object-cover object-top max-h-56 group-hover:scale-105 transition-transform duration-300' src={coderHuntFallS} alt="SUPC Coder Hunt Podium" />
           </div>
           <div className='flex-grow'>
-            <h3 className='text-lg font-bold mb-2'>SUPC Coder Hunt Fall-25 (Achievement Award)</h3>
+            <h3 className='heading text-center mb-2'>SUPC Coder Hunt Fall-25 (Achievement Award)</h3>
             <p className='text-sm leading-relaxed opacity-80 text-justify'>
-              A memorable moment receiving the prestige of <span className='font-bold text-amber-500 dark:text-amber-400'>Runner-Up (2nd Place)</span> at the university's premier technical flagship event for outstanding performance in dynamic competitive programming.
+              A memorable moment receiving the prestige of <span className='font-bold text-orange-500'>Runner-Up (2nd Place)</span> at the university's premier technical flagship event for outstanding performance in dynamic competitive programming.
             </p>
           </div>
         </div>
 
         {/* 5. Sonargaon University Programming Contest */}
         <div className='group border rounded-2xl p-5 md:p-6 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between transform hover:-translate-y-1 relative overflow-hidden'>
-          <div className='overflow-hidden rounded-xl mb-4 bg-black/5 dark:bg-white/5 flex items-center justify-center'>
-            <img className='w-full object-cover max-h-56 group-hover:scale-105 transition-transform duration-300' src={suC} alt="Sonargaon University Certificate" />
+          <div className='overflow-hidden rounded-xl mb-4'>
+            <img className='w-full object-cover object-top max-h-56 group-hover:scale-105 transition-transform duration-300' src={suC} alt="Sonargaon University Certificate" />
           </div>
           <div className='flex-grow'>
-            <h3 className='text-lg font-bold mb-2'>SU CSE Fest Programming Contest</h3>
+            <h3 className='heading text-center mb-2'>SU CSE Fest Programming Contest</h3>
             <p className='text-sm leading-relaxed opacity-80 text-justify'>
-              Successfully secured the distinguished <span className='font-bold text-amber-500 dark:text-amber-400'>4th Position</span> at the Sonargaon University Programming Contest (SU CSE Fest), evaluating rapid problem-solving skills under strict time-complexities.
+              Successfully secured the distinguished <span className='font-bold text-orange-500'>4th Position</span> at the Sonargaon University Programming Contest (SU CSE Fest), evaluating rapid problem-solving skills under strict time-complexities.
             </p>
           </div>
         </div>
 
         {/* 6. Programming Hero Web Development */}
         <div className='group border rounded-2xl p-5 md:p-6 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between transform hover:-translate-y-1 relative overflow-hidden'>
-          <div className='overflow-hidden rounded-xl mb-4 bg-black/5 dark:bg-white/5 flex items-center justify-center'>
-            <img className='w-full object-cover max-h-56 group-hover:scale-105 transition-transform duration-300' src={phC} alt="Programming Hero Certificate" />
+          <div className='overflow-hidden rounded-xl mb-4'>
+            <img className='w-full object-cover object-top max-h-56 group-hover:scale-105 transition-transform duration-300' src={phC} alt="Programming Hero Certificate" />
           </div>
           <div className='flex-grow'>
-            <h3 className='text-lg font-bold mb-2'>Full-Stack Web Development Journey</h3>
+            <h3 className='heading text-center mb-2'>Full-Stack Web Development Journey</h3>
             <p className='text-sm leading-relaxed opacity-80 text-justify'>
-              Graduated from <span className='font-semibold text-orange-500'>Programming Hero</span>. Acquired end-to-end industry-standard development skills, launching multiple production-ready full-stack applications with state management and secure backends.
+              Graduated from <span className='font-bold text-orange-500'>Programming Hero</span>. Acquired end-to-end industry-standard development skills, launching multiple production-ready full-stack applications with state management and secure backends.
             </p>
           </div>
         </div>

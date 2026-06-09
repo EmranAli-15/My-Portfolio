@@ -3,10 +3,16 @@ import one from "../../assets/projects/mobileApp/taskManagerOffline/one.jpg"
 import two from "../../assets/projects/mobileApp/taskManagerOffline/two.jpg"
 import three from "../../assets/projects/mobileApp/taskManagerOffline/three.jpg"
 import four from "../../assets/projects/mobileApp/taskManagerOffline/four.jpg"
+import { useEffect } from 'react'
 
 export default function TaskManager() {
 
     const images = [one, two, three, four];
+
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
 
     return (
         <div className='border rounded-2xl p-4 md:p-6'>

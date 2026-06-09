@@ -6,10 +6,16 @@ import four from "../../assets/projects/mobileApp/four.jpg"
 import five from "../../assets/projects/mobileApp/five.jpg"
 import six from "../../assets/projects/mobileApp/six.jpg"
 import seven from "../../assets/projects/mobileApp/seven.jpg"
+import { useEffect } from 'react'
 
 export default function TaskManager() {
 
     const images = [two, one, three, four, seven, five, six];
+
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
 
     return (
         <div className='border rounded-2xl p-4 md:p-6'>

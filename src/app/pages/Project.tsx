@@ -10,24 +10,13 @@ import bookWorld from '../../assets/projects/bookWorld.png'
 import taskManager from '../../assets/projects/taskManager.png'
 import taskManagerMobile from '../../assets/projects/mobileApp/two.jpg'
 import tastManagerMobileOffline from "../../assets/projects/mobileApp/taskManagerOffline/two.jpg"
+import vendingMachine from "../../assets/projects/vendingMachine.png"
 
 export default function Project() {
     // Tab State (Default: full-stack)
     const [activeTab, setActiveTab] = useState('full-stack');
 
     const web_projects = [
-        {
-            "image": recipe,
-            "name": "RecipeShare",
-            "tech": "Next.js, Express.js, MongoDB, NextAuth, TypeScript, DeepSeek AI",
-            "summary": "A fully responsive recipe-sharing platform featuring interactive, role-based dashboards for users to manage, share, and discover culinary creations.",
-            "highlight": "AI-Driven Recipe Generation: Powered by DeepSeek AI to automatically generate personalized, step-by-step recipes based on user-inputted kitchen ingredients.",
-            "links": {
-                "client": "https://github.com/EmranAli-15/recipeShare-client.git",
-                "server": "https://github.com/EmranAli-15/recipeShare-server.git",
-                "live": "https://foodrecipe-client.vercel.app/"
-            }
-        },
         {
             "image": bookWorld,
             "name": "Book World",
@@ -38,6 +27,18 @@ export default function Project() {
                 "client": "https://github.com/EmranAli-15/BookWorld-client.git",
                 "server": "https://github.com/EmranAli-15/BookWorld-server.git",
                 "live": "https://bookworld-client.vercel.app/"
+            }
+        },
+        {
+            "image": recipe,
+            "name": "RecipeShare",
+            "tech": "Next.js, Express.js, MongoDB, NextAuth, TypeScript, DeepSeek AI",
+            "summary": "A fully responsive recipe-sharing platform featuring interactive, role-based dashboards for users to manage.",
+            "highlight": "AI-Driven Recipe Generation: Powered by DeepSeek AI to automatically generate personalized, step-by-step recipes based on user-inputted kitchen ingredients.",
+            "links": {
+                "client": "https://github.com/EmranAli-15/recipeShare-client.git",
+                "server": "https://github.com/EmranAli-15/recipeShare-server.git",
+                "live": "https://foodrecipe-client.vercel.app/"
             }
         },
         {
@@ -98,6 +99,18 @@ export default function Project() {
     ];
 
     const web_games = [
+        {
+            "image": vendingMachine,
+            "name": "Self-Vending Machine Simulator",
+            "tech": "React.js, Tailwind CSS, Greedy Algorithm",
+            "summary": "An interactive simulation demonstrating the inner mechanics of a self-vending machine, complete with automated product dispensing and dynamic cash drawer validation.",
+            "highlight": "Optimized Change Generation: Implements the Greedy Algorithm to calculate and dispense the remaining balance using the fewest possible currency notes/coins from highest to lowest denominations, while continuously monitoring real-time inventory limits.",
+            "links": {
+                "client": "https://github.com/EmranAli-15/vending-machine",
+                "server": "",
+                "live": "https://emranali-vending-machine.netlify.app/"
+            }
+        },
         {
             "image": tictactoe,
             "name": "Tic-Tac-Toe AI",
@@ -165,7 +178,7 @@ export default function Project() {
                     onClick={() => setActiveTab('games')}
                     className={`px-4 py-2 rounded-xl transition-all duration-200 capitalize ${activeTab === 'games' ? 'bg-indigo-600 text-white shadow-sm' : 'bg-black/5 dark:bg-white/5 hover:bg-black/10 dark:hover:bg-white/10'}`}
                 >
-                    🕹️ Mini Games
+                    🕹️ Games & Logic Labs
                 </button>
             </div>
 
@@ -178,7 +191,7 @@ export default function Project() {
                                 <img className='w-full object-cover object-top h-48 group-hover:scale-105 transition-transform duration-300' src={p.image} alt={p.name} />
                             </div>
                             <div className='flex-grow'>
-                                <h2 className='text-xl font-bold mb-2'>{p.name}</h2>
+                                <h2 className='heading text-center mb-2'>{p.name}</h2>
                                 <p className='text-sm mb-3 opacity-90'>
                                     <span className='font-semibold'>Tech: </span>
                                     <span className='text-indigo-600 dark:text-indigo-400 font-medium'>{p.tech}</span>
